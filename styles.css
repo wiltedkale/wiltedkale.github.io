@@ -68,7 +68,7 @@ body {
     vertical-align: top;
     vertical-align: ;
     display: inline-block;
-    
+    justify-content: center;
     color:black;
     font-family: Lucida Sans Unicode;
     font-size: 12pt;
@@ -86,7 +86,7 @@ body {
         vertical-align: top;
         vertical-align: ;
         display: inline-block;
-        
+        justify-content: center;
         color:black;
         font-family: Lucida Sans Unicode;
         font-size: 12pt;
