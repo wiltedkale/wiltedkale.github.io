@@ -20,7 +20,7 @@ a {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color:;
     font-size: 12pt;
     font-smooth: never;
     -webkit-font-smoothing: none;
@@ -56,6 +56,10 @@ body {
 
 @media all and (max-width: 600px) {
     width: 
+}
+
+.divshort { 
+    width: 800px
 }
 
 @media only screen and (min-width: 800px) {
@@ -95,6 +99,7 @@ body {
         
     }
     }
+    
 @media only screen and (min-width: 600px) {
     .divreg {
             width: 710px;
@@ -128,6 +133,46 @@ body {
                 overflow: hidden;
                 
                 color:black;
+                font-family: Lucida Sans Unicode;
+                font-size: 12pt;
+            }
+        }
+
+
+@media only screen and (min-width: 600px) {
+    .divregg {
+            width: 710px;
+            background-color:rgb(23, 23, 25);
+            
+            margin: 50px 0px 50px 0px;
+            padding: 0px 5px 0px 5px;
+            vertical-align: top;
+            justify-content: center;
+            text-align: left;
+            display: inline-block ;
+            overflow: hidden;
+            
+            color:rgb(255, 255, 255);
+            font-family: Lucida Sans Unicode;
+            font-size: 12pt;
+        }
+    }
+
+
+    @media only screen and (min-width: 600px) {
+        .divregg {
+                width: 600;
+                background-color:rgb(23, 23, 25);
+                
+                margin: 50px 0px 50px 0px;
+                padding: 0px 5px 0px 5px;
+                vertical-align: top;
+                justify-content: center;
+                text-align: left;
+                display: inline-block ;
+                overflow: hidden;
+                
+                color:rgb(255, 255, 255);
                 font-family: Lucida Sans Unicode;
                 font-size: 12pt;
             }
