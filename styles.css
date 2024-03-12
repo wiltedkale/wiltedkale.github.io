@@ -62,43 +62,52 @@ body {
     width: 800px
 }
 
-@media only screen and (min-width: 800px) {
+
+.divshit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .divovie {
-    width:800px;
+    columns: 3;
     background-color:rgb(255, 255, 255);
-    
-    margin: 20px 10px 20px 10px;
+    flex: ;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px ;
+    margin: 20px 20px 20px 20px;
     padding: 5px 5px 5px 5px;
     vertical-align: top;
     vertical-align: ;
-    display: inline-block;
-    justify-content: center;
+    display: ;
     color:black;
     font-family: Lucida Sans Unicode;
     font-size: 12pt;
     overflow: hidden;
     
 }
+
+
+.card {
+    width: 360px;
+    height: 480px;
+    margin: 35px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    background-color: white;
+    text-align: left;
+    object-fit: cover;
+    flex:
+    
+
 }
 
-@media only screen and (max-width: 600px) {
-    .divovie {
-        width:400px;
-        background-color:rgb(255, 255, 255);
-        
-        margin: 20px 10px 20px 10px;
-        padding: 5px 5px 5px 5px;
-        vertical-align: top;
-        vertical-align: ;
-        display: inline-block;
-        justify-content: center;
-        color:black;
-        font-family: Lucida Sans Unicode;
-        font-size: 12pt;
-        overflow: hidden;
-        
-    }
-    }
+
+
+
     
 @media only screen and (min-width: 600px) {
     .divreg {
@@ -151,8 +160,8 @@ body {
             text-align: left;
             display: inline-block ;
             overflow: hidden;
-            color: white;
-        
+            
+            color:rgb(255, 255, 255);
             font-family: Lucida Sans Unicode;
             font-size: 12pt;
         }
@@ -171,8 +180,8 @@ body {
                 text-align: left;
                 display: inline-block ;
                 overflow: hidden;
-                color: white;
                 
+                color:rgb(255, 255, 255);
                 font-family: Lucida Sans Unicode;
                 font-size: 12pt;
             }
@@ -212,21 +221,7 @@ body {
     
 }
 
-.card {
-    width: 380px;
-    height: 500px;
-    margin: 2px 2px 35px 2px;
-    padding: 2px 2px 2px 2px;
-    background-color: white;
-    display: inline-block;
-    object-fit: cover;
-    outline:;
-    vertical-align: top;
-    cursor: ;
-    text-align: left;
-    
 
-}
 
 .imgreg {
     margin: 5px 0px 5px 0px;
@@ -247,19 +242,6 @@ p {
     line-height: 1.5;
 }
 
-.p2 {
-
-    font-family: Lucida Sans Unicode;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    text-indent: 0%;
-    padding: 0px 0px 0px 0px;
-    margin: 5px 5px 5px 5px;
-    vertical-align: top;
-    font-size: .8rem;
-
-
-}
 
 .title-button-blue {
     background-color:#2a61cf;
