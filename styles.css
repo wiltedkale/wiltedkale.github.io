@@ -41,22 +41,9 @@ body {
 
 }
 
-@media only screen and (max-wdith: 600px)
-.gvideo {
-    width:
-
-}
 
 
 
-@media all and (min-width: 600px)
-{
-    width: 100%;
-}
-
-@media all and (max-width: 600px) {
-    width: 
-}
 
 .divshort { 
     width: 800px
@@ -106,10 +93,17 @@ body {
 }
 
 
+.divfl {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
 
 
     
-@media only screen and (min-width: 600px) {
+
     .divreg {
             width: 710px;
             background-color:rgb(255, 255, 255);
@@ -126,29 +120,14 @@ body {
             font-family: Lucida Sans Unicode;
             font-size: 12pt;
         }
-    }
-
-    @media only screen and (max-width: 600px) {
-        .divreg {
-                width: 600px;
-                background-color:rgb(255, 255, 255);
-                
-                margin: 50px 0px 50px 10px;
-                padding: 0px 5px 0px 5px;
-                vertical-align: top;
-                justify-content: center;
-                text-align: left;
-                display: inline-block ;
-                overflow: hidden;
-                
-                color:black;
-                font-family: Lucida Sans Unicode;
-                font-size: 12pt;
-            }
-        }
+    
+    
 
 
-@media only screen and (min-width: 600px) {
+    
+
+
+
     .divregg {
             width: 710px;
             background-color:rgb(23, 23, 25);
@@ -165,27 +144,27 @@ body {
             font-family: Lucida Sans Unicode;
             font-size: 12pt;
         }
+    
+@media only screen and (max-width: 2500px) {
+    .divregg {
+        width: 710px;
+
     }
+}
+
+@media only screen and (max-width: 2500px) {
+    .divreg {
+        width: 710px;
+
+    }
+}
 
 
-    @media only screen and (min-width: 600px) {
-        .divregg {
-                width: 600;
-                background-color:rgb(23, 23, 25);
-                
-                margin: 50px 0px 50px 0px;
-                padding: 0px 5px 0px 5px;
-                vertical-align: top;
-                justify-content: center;
-                text-align: left;
-                display: inline-block ;
-                overflow: hidden;
-                
-                color:rgb(255, 255, 255);
-                font-family: Lucida Sans Unicode;
-                font-size: 12pt;
-            }
-        }
+
+
+
+
+   
     
 
 .divcap {
@@ -330,3 +309,5 @@ p {
 }
 
 .thumbnailsmall
+
+
