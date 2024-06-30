@@ -8,13 +8,7 @@
     outline:
 }
 
-a {
-    color:grey;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-decoration: none;
 
-}
 #container {
     width: 100%;
 }
@@ -127,7 +121,7 @@ body {
 
 .divggold {
     width: 710px;
-    background-color:rgb(23, 23, 25);
+    background-color:rgb(255, 255, 255);
     margin: 50px 10px 50px 10px;
     vertical-align: top;
     justify-content: flex-start;
@@ -145,6 +139,19 @@ body {
     max-width: 100%;
     height: auto;
     margin: 20px 0px 20px 0px;
+}
+.titleflex {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+
+}
+
+.imgbuffer {
+    max-width: 100%;
+    height: auto;
+
 }
 
 .vidflex {
@@ -236,8 +243,10 @@ body {
     max-width: 100%;
     display: flex;
     margin: 0px 240px 0px 240px;
-   justify-content: center;
-
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
 }
 
 .divtrans {
