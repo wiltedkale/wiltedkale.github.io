@@ -86,6 +86,9 @@ body {
 
 }
 
+.container {
+    justify-content: center;
+}
 
 .divfl {
     display: inline-flex;
@@ -102,10 +105,72 @@ body {
     height: auto;
 }
 
+.divwrapp {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: ;
+    height: auto; 
+
+}
+
 
 .divgg {
     width: 730px;
     background-color:rgb(23, 23, 25);
+    margin: 50px 10px 50px 10px;
+    vertical-align: top;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: ;
+    height: auto; 
+
+
+}
+
+.divggg {
+    width: 760px;
+    background-color:rgb(23, 23, 25);
+    margin: 50px 10px 50px 10px;
+    vertical-align: top;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto; 
+
+
+}
+
+.divpar {
+    line-height: 40%;
+    font-family: consolas;
+
+}
+
+.divsm {
+    width: 760px;
+    background-color:rgb(23, 23, 25);
+    margin: 50px 10px 50px 10px;
+    vertical-align: top;
+    display: flex;
+    justify-content: flex-start;
+    
+    height: auto; 
+
+}
+
+.divpdd {
+    width: 760px;
+    background-color: #f3efe8;
     margin: 50px 10px 50px 10px;
     vertical-align: top;
     justify-content: flex-start;
@@ -140,10 +205,24 @@ body {
     height: auto;
     margin: 20px 0px 20px 0px;
 }
+
+.pflex {
+    max-width: 100%;
+    height: auto;
+    margin: 5px 0px 10px 0px;
+}
+
+.flexspace {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0px 30px 0px;
+
+}
+
 .titleflex {
     max-width: 100%;
     height: auto;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0px;
 
 }
@@ -217,6 +296,8 @@ body {
             height: auto;
 
         }
+
+
     
 
 
