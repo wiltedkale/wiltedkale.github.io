@@ -150,6 +150,21 @@ body {
 
 }
 
+.divgg8 {
+    width: 800px;
+    background-color:rgb(23, 23, 25);
+    margin: 50px 10px 50px 10px;
+    vertical-align: top;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto; 
+
+
+}
+
 .divpar {
     line-height: 40%;
     font-family: consolas;
